@@ -8,8 +8,26 @@ img {
   width:250px;
   object-fit: cover;
 }
-.Characters {
+.container {
   display: flex;
   justify-content: space-evenly;
   flex-flow: wrap;
+  border: 5px solid;
+}
+.info {
+  border: 5px solid;
+  color: grey;
+  width:250px;
+  height:auto;
+  padding:30px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  color: black
+}
+p {
+  color:black;
+  font-weight: 700;
 }
