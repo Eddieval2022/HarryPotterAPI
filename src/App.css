@@ -2,10 +2,18 @@
   text-align: center;
 }
 
-
+.Characters {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(15, 16, 16, 0.99),
+      rgba(155, 155, 155, 0.7)
+    ),
+    url(hogwarts.jpg);
+  background-size: cover;
+}
 img {
-  height:250px;
-  width:250px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
 }
 .container {
@@ -17,17 +25,20 @@ img {
 .info {
   border: 5px solid;
   color: grey;
-  width:250px;
-  height:auto;
-  padding:30px;
+  width: 250px;
+  height: auto;
+  padding: 30px;
 }
-h1{
+h1 {
   text-align: center;
+  color: lightgrey;
+  padding-bottom: 30px;
 }
-h2{
-  color: black
+h2 {
+  color: lightgrey;
 }
 p {
-  color:black;
+  color: lightgrey;
   font-weight: 700;
+  font-size: 25px;
 }
