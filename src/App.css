@@ -1,20 +1,19 @@
-.App {
-  text-align: center;
-}
-
 .Characters {
+  margin-top: -35px;
   background-image: linear-gradient(
       to bottom,
-      rgb(15, 16, 16, 0.99),
-      rgba(155, 155, 155, 0.7)
+      rgb(15, 16, 16, 0.7),
+      rgba(30, 29, 29, 0.6)
     ),
-    url(hogwarts.jpg);
+    url(hogwarts1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 img {
   height: 250px;
   width: 250px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .container {
   display: flex;
@@ -24,20 +23,29 @@ img {
 }
 .info {
   border: 5px solid;
-  color: grey;
+  color: rgb(210, 190, 190);
   width: 250px;
   height: auto;
   padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 h1 {
+  padding-top: 40px;
   text-align: center;
   color: lightgrey;
   padding-bottom: 30px;
+  font-size: 50px;
 }
 h2 {
   color: lightgrey;
+  text-align: center;
+  font-size: 40px;
+}
+h3{
+  font-size: 30px;
 }
 p {
+  margin: 50px;
   color: lightgrey;
   font-weight: 700;
   font-size: 25px;
